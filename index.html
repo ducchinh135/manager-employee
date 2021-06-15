@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Fontawesome 4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet" />
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            databaseURL: "https://mindx-cijs-fff7d.firebaseio.com",
+            apiKey: "AIzaSyDvjbQwOFDbgpckBJwk6Fkun7GTWeIABm4",
+            authDomain: "mindx-cijs-fff7d.firebaseapp.com",
+            projectId: "mindx-cijs-fff7d",
+            storageBucket: "mindx-cijs-fff7d.appspot.com",
+            messagingSenderId: "919046048322",
+            appId: "1:919046048322:web:a783cb1f473d0be074bbdb"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="//unpkg.com/navigo@6"></script>
+
+
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <article id="app">
+        <login-screen></login-screen>
+    </article>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
